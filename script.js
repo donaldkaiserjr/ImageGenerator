@@ -1,10 +1,20 @@
 /*https://source.unsplash.com/   
 Simply add photo dimensions after the URL (ex: /800x600) */
 
+'use strict'
 
 const div = document.querySelector('.container')
-const imgSrc = https://source.unsplash.com/random/
+let a = document.createElement('a');
+const textnode = document.createTextNode("Link")
+a.appendChild(textnode)
+a.href= `https://source.unsplash.com/${randNum}x${randNum}`
+div.appendChild(a)
 
-function randNum(num1, num2 {
-    return Math.ceil(Math.random() * )
+
+
+function randNum() {
+    return Math.ceil(Math.random() * 3000)
 }
+
+
+
