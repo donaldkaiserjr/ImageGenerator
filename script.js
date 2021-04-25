@@ -3,17 +3,29 @@ Simply add photo dimensions after the URL (ex: /800x600) */
 
 'use strict'
 
-const div = document.querySelector('.container')
-let a = document.createElement('a');
-const textnode = document.createTextNode("Link")
-a.appendChild(textnode)
-a.href= `https://source.unsplash.com/${randNum}x${randNum}`
-div.appendChild(a)
+const container = document.querySelector('.container')
+const unsplashURL = `https://source.unsplash.com/`
 
+
+const rows = 10
+
+for(let i = 0; i < rows * 3; i++) {
+    const img = document.createElement('img')
+    img.src = `${unsplashURL}${randSize()}`
+    container.appendChild(img)
+}
+
+
+
+
+
+function randSize() {
+    return `${randNum()}x${randNum()}`
+}
 
 
 function randNum() {
-    return Math.ceil(Math.random() * 3000)
+    return Math.ceil(Math.random() * 10) + 300
 }
 
 
