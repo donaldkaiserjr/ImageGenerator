@@ -7,6 +7,7 @@ const container = document.querySelector('.container')
 const unsplashURL = `https://source.unsplash.com/`
 
 
+
 const rows = 10
 
 for(let i = 0; i < rows * 3; i++) {
@@ -14,8 +15,7 @@ for(let i = 0; i < rows * 3; i++) {
     img.src = `${unsplashURL}${randSize()}`
     container.appendChild(img)
 }
-
-
+    
 
 
 

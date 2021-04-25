@@ -17,8 +17,14 @@ body {
 }
 
 .title {
-  margin: 10px 10px 40px;
+  margin: 10px 0 0;
   text-align: center;
+  
+}
+
+h1 {
+  margin: 20px;
+  
 }
 
 .container {
@@ -47,7 +53,7 @@ div[class*=box] {
   margin: 20px 10px 40px;
 }
 
-.box-1 { background-color: #FF6766; }
+.box-1 { background-color: #494ce2; }
 
 .btn {
   line-height: 50px;
@@ -61,6 +67,9 @@ div[class*=box] {
 	color: #FFF;
 	transition: all 0.3s;
 	position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  font-weight: 500;
 }
 
 .btn-one span {
