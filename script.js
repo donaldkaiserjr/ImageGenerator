@@ -4,7 +4,7 @@ Simply add photo dimensions after the URL (ex: /800x600) */
 'use strict'
 
 const container = document.querySelector('.container')
-const unsplashURL = `https://source.unsplash.com/`
+const unsplashURL = `https://source.unsplash.com/`  //image site
 
 
 
