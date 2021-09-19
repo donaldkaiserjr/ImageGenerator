@@ -62,7 +62,6 @@ div[class*=box] {
 	width: 250px;
 	cursor: pointer;
 }
-
 .btn-one {
 	color: #FFF;
 	transition: all 0.3s;
