@@ -15,7 +15,6 @@ for(let i = 0; i < rows * 3; i++) {
 }
  
 
-
 function randSize() {
     return `${randNum()}x${randNum()}`
 }
