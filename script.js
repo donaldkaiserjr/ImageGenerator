@@ -19,7 +19,6 @@ function randSize() {
     return `${randNum()}x${randNum()}`
 }
 
-
 function randNum() {
     return Math.ceil(Math.random() * 10) + 300
 }
