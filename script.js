@@ -26,6 +26,3 @@ function randSize() {
 function randNum() {
     return Math.ceil(Math.random() * 10) + 300
 }
-
-
-
