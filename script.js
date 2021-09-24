@@ -7,7 +7,6 @@ const container = document.querySelector('.container')
 const unsplashURL = `https://source.unsplash.com/`  //image site
 
 
-
 const rows = 10
 
 for(let i = 0; i < rows * 3; i++) {
